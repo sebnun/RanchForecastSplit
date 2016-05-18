@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E9EA79A1CEBE9B500C85206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9EA7991CEBE9B500C85206 /* AppDelegate.swift */; };
-		9E9EA79C1CEBE9B500C85206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9EA79B1CEBE9B500C85206 /* ViewController.swift */; };
-		9E9EA79E1CEBE9B500C85206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EA79D1CEBE9B500C85206 /* Assets.xcassets */; };
-		9E9EA7A11CEBE9B500C85206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EA79F1CEBE9B500C85206 /* Main.storyboard */; };
+		7D6CDAF61A97A40C00E8D534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDAF51A97A40C00E8D534 /* AppDelegate.swift */; };
+		7D6CDAFA1A97A40C00E8D534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CDAF91A97A40C00E8D534 /* Images.xcassets */; };
+		7D6CDAFD1A97A40C00E8D534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CDAFB1A97A40C00E8D534 /* Main.storyboard */; };
+		7D6CDB131A97AE0500E8D534 /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDB121A97AE0500E8D534 /* ScheduleFetcher.swift */; };
+		7D6CDB151A97AE1100E8D534 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDB141A97AE1100E8D534 /* Course.swift */; };
+		7D6CDB171A97AE8000E8D534 /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDB161A97AE8000E8D534 /* CourseListViewController.swift */; };
+		7D6CDB191A97DB6500E8D534 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDB181A97DB6500E8D534 /* WebViewController.swift */; };
+		7D6CDB1B1A97E05300E8D534 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CDB1A1A97E05300E8D534 /* MainSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E9EA7961CEBE9B500C85206 /* RanchForecastSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecastSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E9EA7991CEBE9B500C85206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E9EA79B1CEBE9B500C85206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E9EA79D1CEBE9B500C85206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E9EA7A01CEBE9B500C85206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E9EA7A21CEBE9B500C85206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6CDAF01A97A40C00E8D534 /* RanchForecastSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecastSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6CDAF41A97A40C00E8D534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6CDAF51A97A40C00E8D534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D6CDAF91A97A40C00E8D534 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D6CDAFC1A97A40C00E8D534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D6CDB121A97AE0500E8D534 /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
+		7D6CDB141A97AE1100E8D534 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		7D6CDB161A97AE8000E8D534 /* CourseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
+		7D6CDB181A97DB6500E8D534 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7D6CDB1A1A97E05300E8D534 /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9E9EA7931CEBE9B500C85206 /* Frameworks */ = {
+		7D6CDAED1A97A40C00E8D534 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,44 +41,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E9EA78D1CEBE9B500C85206 = {
+		7D6CDAE71A97A40C00E8D534 = {
 			isa = PBXGroup;
 			children = (
-				9E9EA7981CEBE9B500C85206 /* RanchForecastSplit */,
-				9E9EA7971CEBE9B500C85206 /* Products */,
+				7D6CDAF21A97A40C00E8D534 /* RanchForecastSplit */,
+				7D6CDAF11A97A40C00E8D534 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9E9EA7971CEBE9B500C85206 /* Products */ = {
+		7D6CDAF11A97A40C00E8D534 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E9EA7961CEBE9B500C85206 /* RanchForecastSplit.app */,
+				7D6CDAF01A97A40C00E8D534 /* RanchForecastSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E9EA7981CEBE9B500C85206 /* RanchForecastSplit */ = {
+		7D6CDAF21A97A40C00E8D534 /* RanchForecastSplit */ = {
 			isa = PBXGroup;
 			children = (
-				9E9EA7991CEBE9B500C85206 /* AppDelegate.swift */,
-				9E9EA79B1CEBE9B500C85206 /* ViewController.swift */,
-				9E9EA79D1CEBE9B500C85206 /* Assets.xcassets */,
-				9E9EA79F1CEBE9B500C85206 /* Main.storyboard */,
-				9E9EA7A21CEBE9B500C85206 /* Info.plist */,
+				7D6CDAF51A97A40C00E8D534 /* AppDelegate.swift */,
+				7D6CDB161A97AE8000E8D534 /* CourseListViewController.swift */,
+				7D6CDB121A97AE0500E8D534 /* ScheduleFetcher.swift */,
+				7D6CDB141A97AE1100E8D534 /* Course.swift */,
+				7D6CDB181A97DB6500E8D534 /* WebViewController.swift */,
+				7D6CDB1A1A97E05300E8D534 /* MainSplitViewController.swift */,
+				7D6CDAF91A97A40C00E8D534 /* Images.xcassets */,
+				7D6CDAFB1A97A40C00E8D534 /* Main.storyboard */,
+				7D6CDAF31A97A40C00E8D534 /* Supporting Files */,
 			);
 			path = RanchForecastSplit;
+			sourceTree = "<group>";
+		};
+		7D6CDAF31A97A40C00E8D534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CDAF41A97A40C00E8D534 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E9EA7951CEBE9B500C85206 /* RanchForecastSplit */ = {
+		7D6CDAEF1A97A40C00E8D534 /* RanchForecastSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E9EA7A51CEBE9B500C85206 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */;
+			buildConfigurationList = 7D6CDB0C1A97A40C00E8D534 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */;
 			buildPhases = (
-				9E9EA7921CEBE9B500C85206 /* Sources */,
-				9E9EA7931CEBE9B500C85206 /* Frameworks */,
-				9E9EA7941CEBE9B500C85206 /* Resources */,
+				7D6CDAEC1A97A40C00E8D534 /* Sources */,
+				7D6CDAED1A97A40C00E8D534 /* Frameworks */,
+				7D6CDAEE1A97A40C00E8D534 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -78,25 +98,25 @@
 			);
 			name = RanchForecastSplit;
 			productName = RanchForecastSplit;
-			productReference = 9E9EA7961CEBE9B500C85206 /* RanchForecastSplit.app */;
+			productReference = 7D6CDAF01A97A40C00E8D534 /* RanchForecastSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9E9EA78E1CEBE9B500C85206 /* Project object */ = {
+		7D6CDAE81A97A40C00E8D534 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Sebastian;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
-					9E9EA7951CEBE9B500C85206 = {
-						CreatedOnToolsVersion = 7.3.1;
+					7D6CDAEF1A97A40C00E8D534 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
-			buildConfigurationList = 9E9EA7911CEBE9B500C85206 /* Build configuration list for PBXProject "RanchForecastSplit" */;
+			buildConfigurationList = 7D6CDAEB1A97A40C00E8D534 /* Build configuration list for PBXProject "RanchForecastSplit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -104,45 +124,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 9E9EA78D1CEBE9B500C85206;
-			productRefGroup = 9E9EA7971CEBE9B500C85206 /* Products */;
+			mainGroup = 7D6CDAE71A97A40C00E8D534;
+			productRefGroup = 7D6CDAF11A97A40C00E8D534 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E9EA7951CEBE9B500C85206 /* RanchForecastSplit */,
+				7D6CDAEF1A97A40C00E8D534 /* RanchForecastSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9E9EA7941CEBE9B500C85206 /* Resources */ = {
+		7D6CDAEE1A97A40C00E8D534 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9EA79E1CEBE9B500C85206 /* Assets.xcassets in Resources */,
-				9E9EA7A11CEBE9B500C85206 /* Main.storyboard in Resources */,
+				7D6CDAFA1A97A40C00E8D534 /* Images.xcassets in Resources */,
+				7D6CDAFD1A97A40C00E8D534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9E9EA7921CEBE9B500C85206 /* Sources */ = {
+		7D6CDAEC1A97A40C00E8D534 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9EA79C1CEBE9B500C85206 /* ViewController.swift in Sources */,
-				9E9EA79A1CEBE9B500C85206 /* AppDelegate.swift in Sources */,
+				7D6CDB191A97DB6500E8D534 /* WebViewController.swift in Sources */,
+				7D6CDB151A97AE1100E8D534 /* Course.swift in Sources */,
+				7D6CDB1B1A97E05300E8D534 /* MainSplitViewController.swift in Sources */,
+				7D6CDB171A97AE8000E8D534 /* CourseListViewController.swift in Sources */,
+				7D6CDB131A97AE0500E8D534 /* ScheduleFetcher.swift in Sources */,
+				7D6CDAF61A97A40C00E8D534 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E9EA79F1CEBE9B500C85206 /* Main.storyboard */ = {
+		7D6CDAFB1A97A40C00E8D534 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9E9EA7A01CEBE9B500C85206 /* Base */,
+				7D6CDAFC1A97A40C00E8D534 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -150,11 +174,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9E9EA7A31CEBE9B500C85206 /* Debug */ = {
+		7D6CDB0A1A97A40C00E8D534 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -175,19 +198,19 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -195,11 +218,10 @@
 			};
 			name = Debug;
 		};
-		9E9EA7A41CEBE9B500C85206 /* Release */ = {
+		7D6CDB0B1A97A40C00E8D534 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -219,39 +241,38 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		9E9EA7A61CEBE9B500C85206 /* Debug */ = {
+		7D6CDB0D1A97A40C00E8D534 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landab.RanchForecastSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9E9EA7A71CEBE9B500C85206 /* Release */ = {
+		7D6CDB0E1A97A40C00E8D534 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landab.RanchForecastSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -259,24 +280,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E9EA7911CEBE9B500C85206 /* Build configuration list for PBXProject "RanchForecastSplit" */ = {
+		7D6CDAEB1A97A40C00E8D534 /* Build configuration list for PBXProject "RanchForecastSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E9EA7A31CEBE9B500C85206 /* Debug */,
-				9E9EA7A41CEBE9B500C85206 /* Release */,
+				7D6CDB0A1A97A40C00E8D534 /* Debug */,
+				7D6CDB0B1A97A40C00E8D534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E9EA7A51CEBE9B500C85206 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */ = {
+		7D6CDB0C1A97A40C00E8D534 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E9EA7A61CEBE9B500C85206 /* Debug */,
-				9E9EA7A71CEBE9B500C85206 /* Release */,
+				7D6CDB0D1A97A40C00E8D534 /* Debug */,
+				7D6CDB0E1A97A40C00E8D534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9E9EA78E1CEBE9B500C85206 /* Project object */;
+	rootObject = 7D6CDAE81A97A40C00E8D534 /* Project object */;
 }

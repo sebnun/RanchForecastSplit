@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  RanchForecastSplit
 //
-//  Created by Sebastian on 5/17/16.
-//  Copyright © 2016 Sebastian. All rights reserved.
+//  Created by Juan Pablo Claude on 2/20/15.
+//  Copyright (c) 2015 Big Nerd Ranch. All rights reserved.
 //
 
 import Cocoa
